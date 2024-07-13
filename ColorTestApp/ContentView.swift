@@ -13,8 +13,23 @@ struct ContentView: View {
     @State var green: Double = 0.0
     @State var blue: Double = 0.0
     
+    @State var imageName: String = "apple.logo"
+    let imageNameList: [String] = [
+        "apple.logo",
+        "applewatch",
+        "pencil",
+        "macbook"
+    ]
+    
     var body: some View {
-            Image(systemName: "globe")
+        VStack {
+            Picker("", selection: $imageName) {
+                ForEach(imageNameList, id: \.self) { name in
+                    Text(name)
+                }
+            }
+            .pickerStyle(.segmented)
+            Image(systemName: imageName)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
