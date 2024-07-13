@@ -11,6 +11,7 @@
 		4C3F774C2C3FF8DD00552335 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F774B2C3FF8DD00552335 /* ContentView.swift */; };
 		4C3F774E2C3FF8E000552335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C3F774D2C3FF8E000552335 /* Assets.xcassets */; };
 		4C3F77512C3FF8E000552335 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C3F77502C3FF8E000552335 /* Preview Assets.xcassets */; };
+		4C670EA02C42FFE500717090 /* ColorSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C670E9F2C42FFE500717090 /* ColorSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		4C3F774B2C3FF8DD00552335 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4C3F774D2C3FF8E000552335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C3F77502C3FF8E000552335 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4C670E9F2C42FFE500717090 /* ColorSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				4C3F77492C3FF8DD00552335 /* ColorTestAppApp.swift */,
+				4C670E9F2C42FFE500717090 /* ColorSlider.swift */,
 				4C3F774B2C3FF8DD00552335 /* ContentView.swift */,
 				4C3F774D2C3FF8E000552335 /* Assets.xcassets */,
 				4C3F774F2C3FF8E000552335 /* Preview Content */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C3F774C2C3FF8DD00552335 /* ContentView.swift in Sources */,
+				4C670EA02C42FFE500717090 /* ColorSlider.swift in Sources */,
 				4C3F774A2C3FF8DD00552335 /* ColorTestAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
